@@ -1,0 +1,23 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "src/app.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/api/(.*)", "dest": "src/app.js" }
+    ],
+    "env": {
+      "MONGO_URI": "mongodb://localhost:27017/LMS",
+      "DB_USERNAME": "root",
+      "ACCESS_TOKEN_SECRET": "kajal",
+      "REFRESH_TOKEN_SECRET": "kajal",
+      "ACCESS_TOKEN_EXPIRY": "1d",
+      "REFRESH_TOKEN_EXPIRY": "1d",
+      "API_KEY": "kajal",
+      "PORT": "4000",
+      "EMAIL_USERNAME": "abhinayark0@gmail.com",
+      "EMAIL_PASSWORD": "opwv tpwx ntrx gglx",
+      "FRONTEND_URL": "http://localhost:5173/"
+    }
+  }
+  

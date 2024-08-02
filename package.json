@@ -2,11 +2,11 @@
   "name": "lms",
   "version": "1.0.0",
   "description": "",
-  "main": "module.js",
+  "main": "src/app.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon app.js",
-    "start": "nodemon app.js"
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js" 
   },
   "keywords": [],
   "author": "kajal Gurjar",
@@ -31,5 +31,9 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": "16.x",  
+    "npm": "8.x"    
   }
 }
