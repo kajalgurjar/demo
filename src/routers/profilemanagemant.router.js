@@ -6,7 +6,6 @@ import {
 import{
     updateEmployeeProfile
 } from "../controllers/employee.controller.js"
-import  verifyJWT  from "../middleware/auth.middleware.js";
 import upload  from "../middleware/multer.middleware.js";
 
 const router = Router();
